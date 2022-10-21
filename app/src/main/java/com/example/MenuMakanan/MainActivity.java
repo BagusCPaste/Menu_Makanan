@@ -1,4 +1,4 @@
-package com.example.listmakanannusantara;
+package com.example.MenuMakanan;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,7 +6,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+
+
 import java.util.ArrayList;
+
+import MenuMakanan.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getDataFromInternet(){
-        namaMakanan.add("Nasi Goreng");
-        fotoMakanan.add("https://www.indonesia.travel/content/dam/indtravelrevamp/en/trip-ideas/the-ultimate-guide-to-must-try-indonesian-food/nasigoreng.jpg");
-        infoMakanan.add("Nasi goreng original");
+        namaMakanan.add(" Ayam Geprek Spesial ");
+        fotoMakanan.add("https://i.pinimg.com/564x/12/5d/1d/125d1d9dddd857872ed56c840d911be1.jpg");
+        infoMakanan.add("Geprek ayam dg sabel bawang. Sajikan dgn nasi hangat, tempe goreng dan lalapan. Dijamin lupa timbangan\uD83D\uDE4A\uD83D\uDE4A");
         hargaMakanan.add(15000);
 
         namaMakanan.add("Bakso");

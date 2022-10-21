@@ -1,4 +1,4 @@
-package com.example.listmakanannusantara;
+package com.example.MenuMakanan;
 
 import org.junit.Test;
 

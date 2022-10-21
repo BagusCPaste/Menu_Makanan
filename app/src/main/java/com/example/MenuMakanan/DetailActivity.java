@@ -1,4 +1,4 @@
-package com.example.listmakanannusantara;
+package com.example.MenuMakanan;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+
+import MenuMakanan.R;
+
 
 public class DetailActivity extends AppCompatActivity {
 
